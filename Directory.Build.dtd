@@ -1,0 +1,3 @@
+<!ELEMENT Project (PropertyGroup)>
+<!ELEMENT PropertyGroup (RootNamespace)>
+<!ELEMENT RootNamespace (#PCDATA)>

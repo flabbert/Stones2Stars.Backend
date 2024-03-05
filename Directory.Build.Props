@@ -1,0 +1,6 @@
+<!DOCTYPE Project SYSTEM "Directory.Build.dtd">
+<Project>
+    <PropertyGroup>
+        <RootNamespace>Stones2Stars.Backend.$(MSBuildProjectName)</RootNamespace>
+    </PropertyGroup>
+</Project>
