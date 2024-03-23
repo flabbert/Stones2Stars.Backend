@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Stones2Stars.Backend.Definitions.Leaders;
+﻿namespace Stones2Stars.Backend.Definitions.Leaders;
 public class LeaderInfo
 {
-
+    public string Name { get; set; } = string.Empty;
+    public NationalityInfo DefaultNationality { get; set; } = null!;
 }

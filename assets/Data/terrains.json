@@ -1,0 +1,14 @@
+[
+  {
+    "id": "TERRAIN_GRASSLAND"
+  },
+  {
+    "id": "TERRAIN_HILL"
+  },
+  {
+    "id": "TERRAIN_SEA"
+  },
+  {
+    "id": "TERRAIN_OCEAN"
+  }
+]
