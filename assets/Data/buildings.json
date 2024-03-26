@@ -1,5 +1,6 @@
 [
   {
+    "infoType": "BUILDING",
     "id": "BUILDING_3D_PRINTING_MILL",
     "baseCost": 2205,
     "yields": {
@@ -9,6 +10,7 @@
     }
   },
   {
+    "infoType": "BUILDING",
     "id": "BUILDING_QUILT_MAKER",
     "baseCost": 40,
     "yields": {
