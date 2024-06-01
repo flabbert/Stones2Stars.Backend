@@ -1,0 +1,22 @@
+[
+  {
+    "infoType": "BUILDING",
+    "id": "BUILDING_3D_PRINTING_MILL",
+    "baseCost": 2205,
+    "yields": {
+      "PRODUCTION": 30,
+      "COMMERCE": 0,
+      "FOOD": 0
+    }
+  },
+  {
+    "infoType": "BUILDING",
+    "id": "BUILDING_QUILT_MAKER",
+    "baseCost": 40,
+    "yields": {
+      "PRODUCTION": 1,
+      "COMMERCE": 1,
+      "FOOD": 0
+    }
+  }
+]

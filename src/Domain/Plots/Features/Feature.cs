@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stones2Stars.Backend.Definitions.Units;
-public class UnitInfo
+namespace Stones2Stars.Backend.Domain.Plots.Features;
+public class Feature
 {
 
 }
