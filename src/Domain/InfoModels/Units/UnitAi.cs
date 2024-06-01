@@ -2,10 +2,9 @@
 
 
 // have this be bitflags?
-public class UnitAi(string name)
+public class UnitAi(string name, bool isMilitary = true)
 {
     public string Name { get; set; } = name;
-    public static implicit operator string(UnitAi unit) => unit.Name;
-    public static UnitAi Attack => new("UNITAI_ATTACK");
-    public static UnitAi Defence => new("UNITAI_DEFENCE");
+    public bool IsMilitary { get; set; } = isMilitary;
+    public static implicit operator string(UnitAi unitAi) => unitAi.Name;
 }

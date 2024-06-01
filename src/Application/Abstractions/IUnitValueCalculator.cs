@@ -1,5 +1,5 @@
 ﻿namespace Stones2Stars.Backend.Application.Abstractions;
 public interface IUnitValueCalculator
 {
-    public Task<int> CalculateValue(string aiType, string unitName);
+    public ValueTask<double> CalculateValue(string aiType, string unitName);
 }

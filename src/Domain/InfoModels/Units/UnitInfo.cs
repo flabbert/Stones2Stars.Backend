@@ -4,7 +4,7 @@ public class UnitInfo
     public List<CombatType> CombatTypes { get; set; } = [];
     public List<UnitAction> AvailableActions { get; set; } = [];
     public List<string> AvailableMapCategories { get; set; } = []; // sea, land, space, air, etc
-    public List<string> AllowedUnitAis { get; set; } = [UnitAi.Attack, UnitAi.Defence];
+    public List<string> AllowedUnitAis { get; set; } = ["UNITAI_ATTACK", "UNITAI_DEFENCE"];
     public List<string> RequiredBonuses { get; set; } = [];
 
     public string Name { get; set; } = string.Empty;
@@ -12,6 +12,7 @@ public class UnitInfo
     public int BaseUpKeep { get; set; }
     public int MovementPoints { get; set; } // if 0 it's a plane, or other unit that can only move with unitActions
     public CombatStats? CombatStats { get; set; } = null;
+    public CivilianStats? CivilianStats { get; set; } = null;
     public List<IUnitModule> Modules { get; set; } = [];
 }
 
@@ -19,6 +20,12 @@ public class CombatStats
 {
     public double Strength { get; set; }
     public int Size { get; set; }
+}
+
+public class CivilianStats
+{
+    public int WorkPoints { get; set; }
+    public List<UnitMission> AvailableMissions { get; set; } = [];
 }
 
 public class UnitMission

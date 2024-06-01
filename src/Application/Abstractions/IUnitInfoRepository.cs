@@ -3,6 +3,7 @@
 namespace Stones2Stars.Backend.Application.Abstractions;
 public interface IUnitInfoRepository
 {
-    public List<UnitInfo> GetAllAvailableUnitsForAi(string unitAi, bool isResearched = true);
+    public Task<UnitInfo?> GetByName(string name);
+    public Task<List<UnitInfo>> GetAllAvailableUnitsForAi(string unitAi, bool isResearched = true);
 
 }
